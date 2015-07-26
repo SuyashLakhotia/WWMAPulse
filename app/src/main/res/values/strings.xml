@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WWMAPulse</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_reminder">AddReminderActivity</string>
+    <string name="title_activity_add_friend">AddFriendActivity</string>
+
+    <string name="notify_new_task_message">A reminder needs your attention!</string>
+    <string name="notify_new_task_title">Reminder!</string>
+
+</resources>

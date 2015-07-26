@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nabuopensdk_final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/nabuopensdk_final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

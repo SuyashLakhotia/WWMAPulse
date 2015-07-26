@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.example.WWMAPulse"
+        minSdkVersion 18
+        targetSdkVersion 19
+    }
+
+    android {
+        packagingOptions {
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/NOTICE'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.2+'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.2+'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.2+'
+    compile 'com.mcxiaoke.volley:library:1.0.+'
+    compile files('libs/nabuopensdk_final.jar')
+    compile files('libs/core-3.2.0.jar')
+}

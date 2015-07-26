@@ -1,0 +1,71 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\example\
+* doc\com\example\fakethirdpartyapp\
+* doc\com\example\fakethirdpartyapp\MainActivity.PlaceholderFragment.html
+* doc\com\example\fakethirdpartyapp\MainActivity.html
+* doc\com\example\fakethirdpartyapp\class-use\
+* doc\com\example\fakethirdpartyapp\class-use\MainActivity.PlaceholderFragment.html
+* doc\com\example\fakethirdpartyapp\class-use\MainActivity.html
+* doc\com\example\fakethirdpartyapp\package-frame.html
+* doc\com\example\fakethirdpartyapp\package-summary.html
+* doc\com\example\fakethirdpartyapp\package-tree.html
+* doc\com\example\fakethirdpartyapp\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-2.html
+* doc\index-files\index-3.html
+* doc\index.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\stylesheet.css
+* ic_launcher-web.png
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\jackson-annotations-2.2.3.jar => app\libs\jackson-annotations-2.2.3.jar
+* libs\jackson-core-2.2.3.jar => app\libs\jackson-core-2.2.3.jar
+* libs\jackson-databind-2.2.3.jar => app\libs\jackson-databind-2.2.3.jar
+* libs\nabuopensdk_final.jar => app\libs\nabuopensdk_final.jar
+* libs\volley.jar => app\libs\volley.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
