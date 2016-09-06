@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.example.WWMAPulse"
+        applicationId "com.suyashlakhotia.WWMAPulse"
         minSdkVersion 18
         targetSdkVersion 19
     }

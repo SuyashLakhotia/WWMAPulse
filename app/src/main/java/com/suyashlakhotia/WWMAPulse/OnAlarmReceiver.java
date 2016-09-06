@@ -1,4 +1,4 @@
-package com.example.WWMAPulse;
+package com.suyashlakhotia.WWMAPulse;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

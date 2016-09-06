@@ -1,4 +1,4 @@
-package com.example.WWMAPulse;
+package com.suyashlakhotia.WWMAPulse;
 
 import android.app.ListActivity;
 import android.content.Intent;
